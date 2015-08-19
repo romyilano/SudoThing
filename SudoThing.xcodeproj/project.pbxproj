@@ -7,13 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85CFCA37C7C2EAAFBEB0F07F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 017FE166D734EA4A9DE702D1 /* libPods.a */; };
 		EC664F541B832C3C0071CCEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F531B832C3C0071CCEB /* main.m */; };
 		EC664F571B832C3C0071CCEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F561B832C3C0071CCEB /* AppDelegate.m */; };
-		EC664F5A1B832C3C0071CCEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F591B832C3C0071CCEB /* ViewController.m */; };
-		EC664F5D1B832C3C0071CCEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC664F5B1B832C3C0071CCEB /* Main.storyboard */; };
-		EC664F5F1B832C3C0071CCEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC664F5E1B832C3C0071CCEB /* Images.xcassets */; };
 		EC664F621B832C3C0071CCEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC664F601B832C3C0071CCEB /* LaunchScreen.xib */; };
 		EC664F6E1B832C3C0071CCEB /* SudoThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F6D1B832C3C0071CCEB /* SudoThingTests.m */; };
+		EC664F7A1B832E360071CCEB /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F791B832E360071CCEB /* Constants.m */; };
+		EC664F7C1B832E5A0071CCEB /* DesignStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC664F7B1B832E5A0071CCEB /* DesignStoryboard.storyboard */; };
+		EC664F851B832E640071CCEB /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F7E1B832E640071CCEB /* EntryViewController.m */; };
+		EC664F861B832E640071CCEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F801B832E640071CCEB /* LoginViewController.m */; };
+		EC664F871B832E640071CCEB /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F821B832E640071CCEB /* ProfileViewController.m */; };
+		EC664F881B832E640071CCEB /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F841B832E640071CCEB /* SignupViewController.m */; };
+		EC664F931B832E820071CCEB /* machine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F891B832E820071CCEB /* machine@2x.png */; };
+		EC664F941B832E820071CCEB /* cooking.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F8A1B832E820071CCEB /* cooking.png */; };
+		EC664F951B832E820071CCEB /* cooking@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F8B1B832E820071CCEB /* cooking@2x.png */; };
+		EC664F961B832E820071CCEB /* kombucha-dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F8C1B832E820071CCEB /* kombucha-dark@2x.png */; };
+		EC664F971B832E820071CCEB /* markers@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F8D1B832E820071CCEB /* markers@2x.png */; };
+		EC664F981B832E820071CCEB /* 3dprint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F8E1B832E820071CCEB /* 3dprint@2x.png */; };
+		EC664F991B832E820071CCEB /* records@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F8F1B832E820071CCEB /* records@2x.png */; };
+		EC664F9A1B832E820071CCEB /* icon_x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F901B832E820071CCEB /* icon_x.png */; };
+		EC664F9B1B832E820071CCEB /* icon_x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC664F911B832E820071CCEB /* icon_x@2x.png */; };
+		EC664F9C1B832E820071CCEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC664F921B832E820071CCEB /* Images.xcassets */; };
+		EC664FA51B832E8D0071CCEB /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F9E1B832E8D0071CCEB /* TPKeyboardAvoidingCollectionView.m */; };
+		EC664FA61B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664FA01B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.m */; };
+		EC664FA71B832E8D0071CCEB /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664FA21B832E8D0071CCEB /* TPKeyboardAvoidingTableView.m */; };
+		EC664FA81B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664FA41B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		ECCA331B1B8536BB0085DEA2 /* SudoThingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA331A1B8536BB0085DEA2 /* SudoThingViewController.m */; };
+		ECCA331E1B8541090085DEA2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA331D1B8541090085DEA2 /* WebViewController.m */; };
+		ECCA33211B85506E0085DEA2 /* SudoCareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA33201B85506E0085DEA2 /* SudoCareManager.m */; };
+		ECCA33251B8557760085DEA2 /* AddThingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA33241B8557760085DEA2 /* AddThingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +49,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017FE166D734EA4A9DE702D1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A559E7054AEC825EB23A059 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E0CB3BE9E2A8460A38844017 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EC664F4E1B832C3C0071CCEB /* SudoThing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudoThing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC664F521B832C3C0071CCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC664F531B832C3C0071CCEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC664F551B832C3C0071CCEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC664F561B832C3C0071CCEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC664F581B832C3C0071CCEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC664F591B832C3C0071CCEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EC664F5C1B832C3C0071CCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EC664F5E1B832C3C0071CCEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC664F611B832C3C0071CCEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC664F671B832C3C0071CCEB /* SudoThingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudoThingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC664F6C1B832C3C0071CCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC664F6D1B832C3C0071CCEB /* SudoThingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudoThingTests.m; sourceTree = "<group>"; };
+		EC664F771B832E360071CCEB /* SecretKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretKeys.h; sourceTree = "<group>"; };
+		EC664F781B832E360071CCEB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		EC664F791B832E360071CCEB /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		EC664F7B1B832E5A0071CCEB /* DesignStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DesignStoryboard.storyboard; sourceTree = "<group>"; };
+		EC664F7D1B832E640071CCEB /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		EC664F7E1B832E640071CCEB /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		EC664F7F1B832E640071CCEB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EC664F801B832E640071CCEB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EC664F811B832E640071CCEB /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		EC664F821B832E640071CCEB /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		EC664F831B832E640071CCEB /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		EC664F841B832E640071CCEB /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		EC664F891B832E820071CCEB /* machine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "machine@2x.png"; sourceTree = "<group>"; };
+		EC664F8A1B832E820071CCEB /* cooking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cooking.png; sourceTree = "<group>"; };
+		EC664F8B1B832E820071CCEB /* cooking@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cooking@2x.png"; sourceTree = "<group>"; };
+		EC664F8C1B832E820071CCEB /* kombucha-dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kombucha-dark@2x.png"; sourceTree = "<group>"; };
+		EC664F8D1B832E820071CCEB /* markers@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "markers@2x.png"; sourceTree = "<group>"; };
+		EC664F8E1B832E820071CCEB /* 3dprint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3dprint@2x.png"; sourceTree = "<group>"; };
+		EC664F8F1B832E820071CCEB /* records@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "records@2x.png"; sourceTree = "<group>"; };
+		EC664F901B832E820071CCEB /* icon_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_x.png; sourceTree = "<group>"; };
+		EC664F911B832E820071CCEB /* icon_x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_x@2x.png"; sourceTree = "<group>"; };
+		EC664F921B832E820071CCEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC664F9D1B832E8D0071CCEB /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		EC664F9E1B832E8D0071CCEB /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		EC664F9F1B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		EC664FA01B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		EC664FA11B832E8D0071CCEB /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		EC664FA21B832E8D0071CCEB /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		EC664FA31B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		EC664FA41B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		ECCA33191B8536BB0085DEA2 /* SudoThingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudoThingViewController.h; sourceTree = "<group>"; };
+		ECCA331A1B8536BB0085DEA2 /* SudoThingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudoThingViewController.m; sourceTree = "<group>"; };
+		ECCA331C1B8541090085DEA2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		ECCA331D1B8541090085DEA2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		ECCA331F1B85506E0085DEA2 /* SudoCareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudoCareManager.h; sourceTree = "<group>"; };
+		ECCA33201B85506E0085DEA2 /* SudoCareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudoCareManager.m; sourceTree = "<group>"; };
+		ECCA33231B8557760085DEA2 /* AddThingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddThingViewController.h; sourceTree = "<group>"; };
+		ECCA33241B8557760085DEA2 /* AddThingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddThingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85CFCA37C7C2EAAFBEB0F07F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +120,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C0E864E29CB4F4B5085F2CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A559E7054AEC825EB23A059 /* Pods.debug.xcconfig */,
+				E0CB3BE9E2A8460A38844017 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCCFAA3F18886AC6EDBBE4CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017FE166D734EA4A9DE702D1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC664F451B832C3C0071CCEB = {
 			isa = PBXGroup;
 			children = (
 				EC664F501B832C3C0071CCEB /* SudoThing */,
 				EC664F6A1B832C3C0071CCEB /* SudoThingTests */,
 				EC664F4F1B832C3C0071CCEB /* Products */,
+				9C0E864E29CB4F4B5085F2CA /* Pods */,
+				CCCFAA3F18886AC6EDBBE4CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +162,22 @@
 			children = (
 				EC664F551B832C3C0071CCEB /* AppDelegate.h */,
 				EC664F561B832C3C0071CCEB /* AppDelegate.m */,
-				EC664F581B832C3C0071CCEB /* ViewController.h */,
-				EC664F591B832C3C0071CCEB /* ViewController.m */,
-				EC664F5B1B832C3C0071CCEB /* Main.storyboard */,
-				EC664F5E1B832C3C0071CCEB /* Images.xcassets */,
+				EC664F7B1B832E5A0071CCEB /* DesignStoryboard.storyboard */,
+				ECCA33221B8554360085DEA2 /* Manager */,
+				ECCA33171B8534B10085DEA2 /* Reference */,
+				ECCA33181B8536880085DEA2 /* SudoThing */,
+				ECCA33161B8534AC0085DEA2 /* Login Flow */,
 				EC664F601B832C3C0071CCEB /* LaunchScreen.xib */,
+				ECCA33151B8534A10085DEA2 /* Graphics */,
+				EC664F921B832E820071CCEB /* Images.xcassets */,
+				EC664F9D1B832E8D0071CCEB /* TPKeyboardAvoidingCollectionView.h */,
+				EC664F9E1B832E8D0071CCEB /* TPKeyboardAvoidingCollectionView.m */,
+				EC664F9F1B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.h */,
+				EC664FA01B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.m */,
+				EC664FA11B832E8D0071CCEB /* TPKeyboardAvoidingTableView.h */,
+				EC664FA21B832E8D0071CCEB /* TPKeyboardAvoidingTableView.m */,
+				EC664FA31B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				EC664FA41B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 				EC664F511B832C3C0071CCEB /* Supporting Files */,
 			);
 			path = SudoThing;
@@ -119,6 +209,69 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ECCA33151B8534A10085DEA2 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				EC664F891B832E820071CCEB /* machine@2x.png */,
+				EC664F8A1B832E820071CCEB /* cooking.png */,
+				EC664F8B1B832E820071CCEB /* cooking@2x.png */,
+				EC664F8C1B832E820071CCEB /* kombucha-dark@2x.png */,
+				EC664F8D1B832E820071CCEB /* markers@2x.png */,
+				EC664F8E1B832E820071CCEB /* 3dprint@2x.png */,
+				EC664F8F1B832E820071CCEB /* records@2x.png */,
+				EC664F901B832E820071CCEB /* icon_x.png */,
+				EC664F911B832E820071CCEB /* icon_x@2x.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		ECCA33161B8534AC0085DEA2 /* Login Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EC664F7D1B832E640071CCEB /* EntryViewController.h */,
+				EC664F7E1B832E640071CCEB /* EntryViewController.m */,
+				EC664F7F1B832E640071CCEB /* LoginViewController.h */,
+				EC664F801B832E640071CCEB /* LoginViewController.m */,
+				EC664F811B832E640071CCEB /* ProfileViewController.h */,
+				EC664F821B832E640071CCEB /* ProfileViewController.m */,
+				EC664F831B832E640071CCEB /* SignupViewController.h */,
+				EC664F841B832E640071CCEB /* SignupViewController.m */,
+				ECCA331C1B8541090085DEA2 /* WebViewController.h */,
+				ECCA331D1B8541090085DEA2 /* WebViewController.m */,
+			);
+			name = "Login Flow";
+			sourceTree = "<group>";
+		};
+		ECCA33171B8534B10085DEA2 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				EC664F771B832E360071CCEB /* SecretKeys.h */,
+				EC664F781B832E360071CCEB /* Constants.h */,
+				EC664F791B832E360071CCEB /* Constants.m */,
+			);
+			name = Reference;
+			sourceTree = "<group>";
+		};
+		ECCA33181B8536880085DEA2 /* SudoThing */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA33191B8536BB0085DEA2 /* SudoThingViewController.h */,
+				ECCA331A1B8536BB0085DEA2 /* SudoThingViewController.m */,
+				ECCA33231B8557760085DEA2 /* AddThingViewController.h */,
+				ECCA33241B8557760085DEA2 /* AddThingViewController.m */,
+			);
+			name = SudoThing;
+			sourceTree = "<group>";
+		};
+		ECCA33221B8554360085DEA2 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA331F1B85506E0085DEA2 /* SudoCareManager.h */,
+				ECCA33201B85506E0085DEA2 /* SudoCareManager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC664F711B832C3C0071CCEB /* Build configuration list for PBXNativeTarget "SudoThing" */;
 			buildPhases = (
+				79DAF2953913E141A6D2DB2A /* Check Pods Manifest.lock */,
 				EC664F4A1B832C3C0071CCEB /* Sources */,
 				EC664F4B1B832C3C0071CCEB /* Frameworks */,
 				EC664F4C1B832C3C0071CCEB /* Resources */,
+				AFCF94F96F91389B9B22B685 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +354,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC664F5D1B832C3C0071CCEB /* Main.storyboard in Resources */,
+				EC664F981B832E820071CCEB /* 3dprint@2x.png in Resources */,
+				EC664F991B832E820071CCEB /* records@2x.png in Resources */,
+				EC664F971B832E820071CCEB /* markers@2x.png in Resources */,
+				EC664F9C1B832E820071CCEB /* Images.xcassets in Resources */,
+				EC664F931B832E820071CCEB /* machine@2x.png in Resources */,
+				EC664F9A1B832E820071CCEB /* icon_x.png in Resources */,
+				EC664F7C1B832E5A0071CCEB /* DesignStoryboard.storyboard in Resources */,
+				EC664F951B832E820071CCEB /* cooking@2x.png in Resources */,
+				EC664F961B832E820071CCEB /* kombucha-dark@2x.png in Resources */,
 				EC664F621B832C3C0071CCEB /* LaunchScreen.xib in Resources */,
-				EC664F5F1B832C3C0071CCEB /* Images.xcassets in Resources */,
+				EC664F9B1B832E820071CCEB /* icon_x@2x.png in Resources */,
+				EC664F941B832E820071CCEB /* cooking.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +378,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		79DAF2953913E141A6D2DB2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFCF94F96F91389B9B22B685 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC664F4A1B832C3C0071CCEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC664F5A1B832C3C0071CCEB /* ViewController.m in Sources */,
+				ECCA33211B85506E0085DEA2 /* SudoCareManager.m in Sources */,
+				ECCA33251B8557760085DEA2 /* AddThingViewController.m in Sources */,
+				EC664FA81B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				EC664FA61B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.m in Sources */,
+				EC664FA51B832E8D0071CCEB /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				EC664F571B832C3C0071CCEB /* AppDelegate.m in Sources */,
+				EC664F861B832E640071CCEB /* LoginViewController.m in Sources */,
+				EC664F851B832E640071CCEB /* EntryViewController.m in Sources */,
+				ECCA331E1B8541090085DEA2 /* WebViewController.m in Sources */,
+				EC664F871B832E640071CCEB /* ProfileViewController.m in Sources */,
 				EC664F541B832C3C0071CCEB /* main.m in Sources */,
+				EC664FA71B832E8D0071CCEB /* TPKeyboardAvoidingTableView.m in Sources */,
+				EC664F881B832E640071CCEB /* SignupViewController.m in Sources */,
+				ECCA331B1B8536BB0085DEA2 /* SudoThingViewController.m in Sources */,
+				EC664F7A1B832E360071CCEB /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +453,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC664F5B1B832C3C0071CCEB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC664F5C1B832C3C0071CCEB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC664F601B832C3C0071CCEB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -345,6 +546,7 @@
 		};
 		EC664F721B832C3C0071CCEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A559E7054AEC825EB23A059 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SudoThing/Info.plist;
@@ -355,6 +557,7 @@
 		};
 		EC664F731B832C3C0071CCEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0CB3BE9E2A8460A38844017 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SudoThing/Info.plist;
@@ -416,6 +619,7 @@
 				EC664F731B832C3C0071CCEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC664F741B832C3C0071CCEB /* Build configuration list for PBXNativeTarget "SudoThingTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +628,7 @@
 				EC664F761B832C3C0071CCEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

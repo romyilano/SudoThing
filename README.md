@@ -1,10 +1,15 @@
 # SudoThing
 
-Part of [SudoCare](https://sudoroom.org/wiki/SudoCare)
+Part of [SudoCare](https://sudoroom.org/wiki/SudoCare) an iOS Project for SudoRoom which will eventually be merged into the open source Labitrack SudoRoom [Inventory](https://sudoroom.org/wiki/Inventory) system.
 
 This is an iOS App that lets you upload a SudoThing to the server.
-then we can have people get little points for fixing SudoThings or learning
-about them or simply decorating them with art.
+
+* Update the wiki from phone: add comments for maintenance
+* Hopefully add videos about how to use stuff, also draw instructions on how to use things as well using SudoPaint component of [SudoCare](https://sudoroom.org/wiki/SudoCare)
+* Long-Term: then we can have people get little points for fixing SudoThings or learning about them or simply decorating them with art.
+
+![early prototype](images/prototype1.png)
+
 
 # Stuff
 
