@@ -1,11 +1,3 @@
-//
-//  BACEManager.h
-//  ParseStarterProject
-//
-//  Created by Romy on 6/15/15.
-//
-//
-
 #import <Foundation/Foundation.h>
 
 extern NSString *SudoCareManagerErrorDomain;
