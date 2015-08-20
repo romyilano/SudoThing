@@ -1,0 +1,3 @@
+[submodule "SudoCareManager"]
+	path = SudoCareManager
+	url = git@github.com:romyilano/SudoCareManager.git
