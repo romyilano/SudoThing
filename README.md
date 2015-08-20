@@ -19,4 +19,6 @@ Swift will be open sourced by the end of the year, so we should switched it from
 
 ## BackEnd
 
-Temporarily put in parse. i do not want to keep this here long term, it is best on an open source private server, but I'm temporarily using Parse for now as proof of concept
+Temporarily put in parse as the back end, although FYI Parse is [Open Source](http://blog.parse.com/announcements/open-sourcing-our-sdks/) now.
+
+This is for get stuff done speed, we will put everything in finality to Labitrack. Yee haw!
