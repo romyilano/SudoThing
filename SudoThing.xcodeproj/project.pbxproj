@@ -12,7 +12,6 @@
 		EC664F571B832C3C0071CCEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F561B832C3C0071CCEB /* AppDelegate.m */; };
 		EC664F621B832C3C0071CCEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC664F601B832C3C0071CCEB /* LaunchScreen.xib */; };
 		EC664F6E1B832C3C0071CCEB /* SudoThingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F6D1B832C3C0071CCEB /* SudoThingTests.m */; };
-		EC664F7A1B832E360071CCEB /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F791B832E360071CCEB /* Constants.m */; };
 		EC664F7C1B832E5A0071CCEB /* DesignStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC664F7B1B832E5A0071CCEB /* DesignStoryboard.storyboard */; };
 		EC664F851B832E640071CCEB /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F7E1B832E640071CCEB /* EntryViewController.m */; };
 		EC664F861B832E640071CCEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664F801B832E640071CCEB /* LoginViewController.m */; };
@@ -34,7 +33,6 @@
 		EC664FA81B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EC664FA41B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		ECCA331B1B8536BB0085DEA2 /* SudoThingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA331A1B8536BB0085DEA2 /* SudoThingViewController.m */; };
 		ECCA331E1B8541090085DEA2 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA331D1B8541090085DEA2 /* WebViewController.m */; };
-		ECCA33211B85506E0085DEA2 /* SudoCareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA33201B85506E0085DEA2 /* SudoCareManager.m */; };
 		ECCA33251B8557760085DEA2 /* AddThingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA33241B8557760085DEA2 /* AddThingViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -62,8 +60,6 @@
 		EC664F6C1B832C3C0071CCEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC664F6D1B832C3C0071CCEB /* SudoThingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SudoThingTests.m; sourceTree = "<group>"; };
 		EC664F771B832E360071CCEB /* SecretKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretKeys.h; sourceTree = "<group>"; };
-		EC664F781B832E360071CCEB /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		EC664F791B832E360071CCEB /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		EC664F7B1B832E5A0071CCEB /* DesignStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DesignStoryboard.storyboard; sourceTree = "<group>"; };
 		EC664F7D1B832E640071CCEB /* EntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
 		EC664F7E1B832E640071CCEB /* EntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
@@ -95,8 +91,6 @@
 		ECCA331A1B8536BB0085DEA2 /* SudoThingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudoThingViewController.m; sourceTree = "<group>"; };
 		ECCA331C1B8541090085DEA2 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		ECCA331D1B8541090085DEA2 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		ECCA331F1B85506E0085DEA2 /* SudoCareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SudoCareManager.h; sourceTree = "<group>"; };
-		ECCA33201B85506E0085DEA2 /* SudoCareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SudoCareManager.m; sourceTree = "<group>"; };
 		ECCA33231B8557760085DEA2 /* AddThingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddThingViewController.h; sourceTree = "<group>"; };
 		ECCA33241B8557760085DEA2 /* AddThingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddThingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -246,8 +240,6 @@
 			isa = PBXGroup;
 			children = (
 				EC664F771B832E360071CCEB /* SecretKeys.h */,
-				EC664F781B832E360071CCEB /* Constants.h */,
-				EC664F791B832E360071CCEB /* Constants.m */,
 			);
 			name = Reference;
 			sourceTree = "<group>";
@@ -266,8 +258,6 @@
 		ECCA33221B8554360085DEA2 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				ECCA331F1B85506E0085DEA2 /* SudoCareManager.h */,
-				ECCA33201B85506E0085DEA2 /* SudoCareManager.m */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -416,7 +406,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCA33211B85506E0085DEA2 /* SudoCareManager.m in Sources */,
 				ECCA33251B8557760085DEA2 /* AddThingViewController.m in Sources */,
 				EC664FA81B832E8D0071CCEB /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				EC664FA61B832E8D0071CCEB /* TPKeyboardAvoidingScrollView.m in Sources */,
@@ -430,7 +419,6 @@
 				EC664FA71B832E8D0071CCEB /* TPKeyboardAvoidingTableView.m in Sources */,
 				EC664F881B832E640071CCEB /* SignupViewController.m in Sources */,
 				ECCA331B1B8536BB0085DEA2 /* SudoThingViewController.m in Sources */,
-				EC664F7A1B832E360071CCEB /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
