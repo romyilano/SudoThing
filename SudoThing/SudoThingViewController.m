@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 #import "Constants.h"
 #import "SudoCareManager.h"
+#import "WebViewController.h"
 
 @interface SudoThingViewController ()
 
@@ -59,6 +60,10 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:kSegueSudoInventorySegueKey]) {
+        WebViewController *webViewController = segue.destinationViewController;
+        webViewController.url = [NSURL URLWithString:kURLInventoryKey];
+    }
 }
 
 #pragma mark - Action Methods
@@ -72,7 +77,7 @@
 }
 
 - (IBAction)addThingBtnPressed:(id)sender {
-    // todo
+    
 }
 
 #pragma mark - Table view data source

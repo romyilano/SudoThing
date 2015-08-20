@@ -292,6 +292,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Od9-bX-f2d">
+                        <barButtonItem key="leftBarButtonItem" title="Labitrack" id="n98-AC-RE1">
+                            <connections>
+                                <segue destination="jnN-vm-YTF" kind="show" identifier="SudoInventorySegue" id="TFd-fL-QIC"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Login" id="gPg-jH-n99">
                             <connections>
                                 <action selector="buttonPressed:" destination="0Il-OL-oIR" id="LzE-KU-CEa"/>
@@ -365,6 +370,8 @@
                             <constraint firstAttribute="centerX" secondItem="Aba-2D-Vpc" secondAttribute="centerX" constant="-5" id="xYW-XU-OvF"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrk-Te-FEc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -593,6 +600,56 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P35-3P-QRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3979" y="662"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="D7S-nb-BI6">
+            <objects>
+                <viewController id="jnN-vm-YTF" customClass="WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5jW-QR-W2H"/>
+                        <viewControllerLayoutGuide type="bottom" id="faF-Si-tUp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eel-8O-tqD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZmX-4O-BUt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="jnN-vm-YTF" id="dnQ-a9-pG8"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZmX-4O-BUt" firstAttribute="leading" secondItem="eel-8O-tqD" secondAttribute="leadingMargin" constant="-20" id="3Qr-dR-AA7"/>
+                            <constraint firstItem="ZmX-4O-BUt" firstAttribute="height" secondItem="eel-8O-tqD" secondAttribute="height" id="ZI7-0j-5WS"/>
+                            <constraint firstItem="ZmX-4O-BUt" firstAttribute="width" secondItem="eel-8O-tqD" secondAttribute="width" id="pOu-6d-qn4"/>
+                            <constraint firstItem="ZmX-4O-BUt" firstAttribute="top" secondItem="5jW-QR-W2H" secondAttribute="bottom" constant="-64" id="vax-wF-nr8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="EmN-mg-dGu">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="SNO-Rd-aAD">
+                            <connections>
+                                <action selector="backBtnPressed:" destination="jnN-vm-YTF" id="ysf-fh-vnW"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="bj6-Ve-bgh">
+                            <connections>
+                                <action selector="closeBtnPressed:" destination="jnN-vm-YTF" id="tQU-rw-8WT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="webView" destination="ZmX-4O-BUt" id="E46-8T-ahV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M2Z-4X-bEP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1936" y="-1486"/>
         </scene>
     </scenes>
     <resources>
